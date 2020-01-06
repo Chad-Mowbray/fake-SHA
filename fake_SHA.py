@@ -27,3 +27,4 @@ while True:
 
 # TODO
 # add modification history
+# add an automatic commit/push
