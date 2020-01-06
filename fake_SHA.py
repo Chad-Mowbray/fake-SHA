@@ -13,11 +13,17 @@ def determineID(file_name):
 
 
 while True:
+  file_name = sys.argv[1]
+
   print('starting')
-  prev = determineID(sys.argv[1])
+  prev = determineID(file_name)
   time.sleep(10)
-  current = determineID(sys.argv[1])
+  current = determineID(file_name)
   print('finishing')
 
   if current != prev:
     print('something has changed')
+
+
+# TODO
+# add modification history
